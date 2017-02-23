@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding-top: 5%;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background-color: #FFB7C5;
+  background: -webkit-linear-gradient(#FFB7C5, #FC8EAC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFB7C5, #FC8EAC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFB7C5, #FC8EAC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFB7C5, #FC8EAC); /* Standard syntax */
+}
+
+.container {
+  width: 70%;
+}
+
+.navbar {
+  background-color: ;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.navitems {
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0;
+}
