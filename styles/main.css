@@ -5,7 +5,6 @@ html {
 body {
   padding-top: 5%;
   font-family: 'Open Sans', sans-serif;
-  height: 100%;
   background-color: #FFB7C5;
   background: -webkit-linear-gradient(#FFB7C5, #FC8EAC); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#FFB7C5, #FC8EAC); /* For Opera 11.1 to 12.0 */
@@ -13,22 +12,29 @@ body {
   background: linear-gradient(#FFB7C5, #FC8EAC); /* Standard syntax */
 }
 
-.container {
-  width: 70%;
-}
-
 .navbar {
-  background-color: ;
   font-weight: bold;
   font-size: 2em;
+  border-bottom: solid 1px #FFB7C5;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .navitems {
   font-weight: normal;
 }
 
+.maintext {
+  font-size: 1.1em;
+}
+
+.maintext h4 {
+  margin: 10px 0 5px 0;
+}
+
 a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:focus {
