@@ -1,31 +1,55 @@
 html {
+height: 100%;
+}
+
+.container-fluid {
   height: 100%;
 }
 
 body {
-  padding-top: 5%;
-  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  font-family: 'Abel', serif;
   background-color: #FFB7C5;
   background: -webkit-linear-gradient(#FFB7C5, #FC8EAC); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#FFB7C5, #FC8EAC); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#FFB7C5, #FC8EAC); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#FFB7C5, #FC8EAC); /* Standard syntax */
+  background:      -o-linear-gradient(#FFB7C5, #FC8EAC); /* For Opera 11.1 to 12.0 */
+  background:    -moz-linear-gradient(#FFB7C5, #FC8EAC); /* For Firefox 3.6 to 15 */
+  background:         linear-gradient(#FFB7C5, #FC8EAC); /* Standard syntax */
+}
+
+.bar {
+  padding: 24px 8% 24px 8%;
 }
 
 .navbar {
-  font-weight: bold;
   font-size: 2em;
-  border-bottom: solid 1px #FFB7C5;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  border-bottom: 1px #e2e2e2 solid;
+  background-color: #f2f2f2;
+  background: -webkit-linear-gradient(#e2e2e2, #f2f2f2); /* For Safari 5.1 to 6.0 */
+  background:      -o-linear-gradient(#e2e2e2, #f2f2f2); /* For Opera 11.1 to 12.0 */
+  background:    -moz-linear-gradient(#e2e2e2, #f2f2f2); /* For Firefox 3.6 to 15 */
+  background:         linear-gradient(#e2e2e2, #f2f2f2); /* Standard syntax */
 }
 
-.navitems {
-  font-weight: normal;
+.nav--primary {
+  text-transform: uppercase;
+  color: #323232;
+}
+
+.nav--primary a {
+  color: #323232;
+}
+
+.nav--primary a:hover {
+  color: #008DFF;
+}
+
+.nav--secondary {
+  color: #008DFF;
 }
 
 .maintext {
   font-size: 1.1em;
+  font-family: 'Lato', serif;
 }
 
 .maintext h4 {
