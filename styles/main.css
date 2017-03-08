@@ -46,12 +46,11 @@ a:hover {
 
 .label {
   display: inline-block;
-  background-color: #FFB7C5;
   padding: 2px 4px;
   border-radius: 8px;
 }
 
-.timestamp {
+.sprint1 {
   background-color: #FFD3DC;
 }
 
@@ -71,8 +70,8 @@ h4, h6 {
   margin: 0;
 }
 
-@media (max-width: 375px) {
-  .label {
+@media (min-width: 375px) {
+  .sprint1, .sprint2, .cultural, .tech {
     display: none;
   }
 }
