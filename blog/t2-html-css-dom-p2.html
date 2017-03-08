@@ -1,53 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>HTML, CSS, DOM</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Abel" rel="stylesheet">
-</head>
 
+  <meta charset="utf-8">
+  <title>HTML, CSS & DOM #2</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Abel|Raleway:400,300,600" rel="stylesheet">
+
+  <link rel="stylesheet" href="../skeleton/css/normalize.css">
+  <link rel="stylesheet" href="../skeleton/css/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+</head>
 <body>
-<div class="container-fluid">
-  <div class="row bar navbar">
-    <div class="col-xs-6 nav--primary"><a href="../index.html">thomasin-abraham</a></div>
-    <div class="col-xs-6 nav--primary text-right">
-      <div data-toggle="collapse" href="#navCollapse" aria-expanded="false" aria-controls="navCollapse"><p><a href="#">blog posts</a></p></div>
-      <div class="collapse" id="navCollapse">
-        <a href="c1-reflection-blog.html">sprint 1 > Reflection</a><br>
-        <a href="c1-time-and-habits-blog.html">sprint 1 > Time and Habits</a><br>
-        <a href="t2-html-css-dom-p1.html">sprint 2 > HTML, CSS, DOM</a><br>
-        <a href="t2-html-css-dom-p2.html">sprint 2 > HTML, CSS, DOM Pt2</a><br>
-        <a href="c2-emotional-intelligence.html">sprint 2 > Emotional Intelligence</a>
-      </div>
-    </div>
-  </div>
-  <div class="maintext bar">
-<h4>What is grid based design?</h4>
+
+  <div class="container">
+    <nav class="section navigation">
+      <h4><a href="../index.html">thomasin-abraham</a> / HTML, CSS & DOM #2:</h4>
+    </nav>
+    <div class="section blogcontent">
+<h5>What is grid based design?</h5>
 <p>
   Keeping the elements in your design structured based on a grid of rows and columns, like legos on a lego board.
 </p>
-<h4>What is all the hype about responsive webpages?</h4>
+<h5>What is all the hype about responsive webpages?</h5>
 <p>
   Responsive webpages are so great because they enable the internet and content to be easily and clearly
 read by everyone no matter what screen or device they're using. As mobile phones and tablets are so commonly used as browsing devices now, unwieldy and hard-to-read web pages designed purely for desktops really harm the user experience on smaller screens.
 </p>
-<h4>What is semantic structure?</h4>
+<h5>What is semantic structure?</h5>
 <p>
   Semantic structure is the construction of a web page with HTML tags and elements that are easy to follow to the human eye, are clear about their intended use and are appropriate to the content, structure and function of the page.
 </p>
-<h4>Any other points you found interesting and want to reflect on?</h4>
+<h5>Any other points you found interesting and want to reflect on?</h5>
 <p>A lot of focus in this course is on creating web pages that are clearly structured and easily readable and viewable. In the websites that we visited as part of our wishlist creation though some of my favourite ones were websites that shook up that structure though, made it interesting and not what you'd expect. Probably less usable, but more beautiful.</p>
-  </div>
 </div>
-</body>
+<div class="section bloglist">
+  <h5>
+    <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+  </h5>
+  <h6 class="label sprint2">sprint-2</h6>
+  <h6 class="label cultural">cultural</h6><br>
+  <h5>
+    <a href="t2-html-css-dom-p2.html">HTML, CSS & DOM #2</a>
+  </h5>
+  <h6 class="label sprint2">sprint-2</h6>
+  <h6 class="label tech">technical</h6><br>
+  <h5>
+    <a href="t2-html-css-dom-p1.html">HTML, CSS & DOM</a>
+  </h5>
+  <h6 class="label sprint2">sprint-2</h6>
+  <h6 class="label tech">technical</h6><br>
+  <h5>
+    <a href="c1-time-and-habits-blog.html">Time and Habits</a>
+  </h5>
+  <h6 class="label sprint1">sprint-1</h6>
+  <h6 class="label cultural">cultural</h6><br>
+  <h5>
+    <a href="c1-reflection-blog.html">Reflection</a>
+  </h5>
+  <h6 class="label sprint1">sprint-1</h6>
+  <h6 class="label cultural">cultural</h6>
+</div>
+<footer class="footer"></footer>
+</div>
 
-<!-- Scripts (JQuery and Bootstrap) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </html>

@@ -11,6 +11,7 @@ body {
   background:      -o-linear-gradient(#FFB7C5, #FC8EAC); /* For Opera 11.1 to 12.0 */
   background:    -moz-linear-gradient(#FFB7C5, #FC8EAC); /* For Firefox 3.6 to 15 */
   background:         linear-gradient(#FFB7C5, #FC8EAC); /* Standard syntax */
+  padding-bottom: 4%;
 }
 
 .navigation {
@@ -34,6 +35,13 @@ a {
 
 a:hover {
   color:#0062B1;
+}
+
+.blogcontent {
+  border-bottom: 1px solid #FFB7C5;
+  padding: 2% 0 2% 0;
+  margin-bottom: 2%;
+  font-size: 1.2em;
 }
 
 .label {
