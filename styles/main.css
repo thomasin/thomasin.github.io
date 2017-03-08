@@ -36,7 +36,7 @@ a:hover {
   color:#0062B1;
 }
 
-.sprint, .type {
+.label {
   display: inline-block;
   background-color: #FFB7C5;
   padding: 2px 4px;
