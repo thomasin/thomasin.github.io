@@ -27,15 +27,31 @@ h5 {
   margin-bottom: 0;
 }
 
-h6 {
-  display: inline-block;
-  background-color: #FFB7C5;
-  padding: 4px;
-  border-radius: 8px;
-  margin-bottom: 0;
+a:hover {
+  text-decoration: none;
+  color: #008DFF;
 }
 
-h4 {
+.sprint, .type {
+  display: inline-block;
+  background-color: #FFB7C5;
+  padding: 2px 4px;
+  border-radius: 8px;
+}
+
+.sprint2 {
+  background-color: #FAF341;
+}
+
+.cultural {
+  background-color: #A0FF66;
+}
+
+.tech {
+  background-color: #FFAA59;
+}
+
+h4, h6 {
   margin: 0;
 }
 
