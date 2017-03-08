@@ -27,9 +27,13 @@ h5 {
   margin-bottom: 0;
 }
 
-a:hover {
+a {
   text-decoration: none;
-  color: #008DFF;
+  color: #007CE1;
+}
+
+a:hover {
+  color:#0062B1;
 }
 
 .sprint, .type {
