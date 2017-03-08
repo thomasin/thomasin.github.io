@@ -1,8 +1,11 @@
+
+
 html {
   min-height: 100%;
 }
 
 body {
+  font-family: 'Abel', sans-serif;;
   background-color: #FFB7C5;
   background: -webkit-linear-gradient(#FFB7C5, #FC8EAC); /* For Safari 5.1 to 6.0 */
   background:      -o-linear-gradient(#FFB7C5, #FC8EAC); /* For Opera 11.1 to 12.0 */
@@ -11,10 +14,33 @@ body {
 }
 
 .navigation {
-  padding: 2% 0 2% 0;
-  margin-bottom: 2%;
-  border-bottom: 1px solid #FC8EAC;
-  text-align: center;
-  font-family: 'Abel', sans-serif;
-  font-size: 2em;
+  margin-top: 8%;
+}
+
+.section {
+  padding:0 8% 0 8%;
+}
+
+h5 {
+  display: inline-block;
+  padding: 4px 4px 4px 0;
+  margin-bottom: 0;
+}
+
+h6 {
+  display: inline-block;
+  background-color: #FFB7C5;
+  padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+@media (max-width: 375px) {
+  h6 {
+    display: none;
+  }
 }
