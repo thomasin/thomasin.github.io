@@ -51,6 +51,10 @@ a:hover {
   border-radius: 8px;
 }
 
+.timestamp {
+  background-color: #FFD3DC;
+}
+
 .sprint2 {
   background-color: #FAF341;
 }
@@ -68,7 +72,7 @@ h4, h6 {
 }
 
 @media (max-width: 375px) {
-  h6 {
+  .label {
     display: none;
   }
 }
