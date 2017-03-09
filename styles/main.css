@@ -58,6 +58,10 @@ a:hover {
   background-color: #FAF341;
 }
 
+.sprint3 {
+  background-color: #FF4C2F;
+}
+
 .cultural {
   background-color: #A0FF66;
 }
@@ -70,7 +74,7 @@ h4, h6 {
   margin: 0;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .sprint1, .sprint2, .cultural, .tech {
     display: none;
   }
