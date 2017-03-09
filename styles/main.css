@@ -75,7 +75,7 @@ h4, h6 {
 }
 
 @media (max-width: 375px) {
-  .sprint1, .sprint2, .cultural, .tech {
+  .blogcontent .label {
     display: none;
   }
 }
