@@ -79,7 +79,3 @@ h4, h6 {
     display: none;
   }
 }
-
-@media only screen {
-  * { font-size: 300%; }
-}
