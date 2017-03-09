@@ -81,5 +81,5 @@ h4, h6 {
 }
 
 @media only screen {
-  font-size: 300%;
+  * { font-size: 300%; }
 }
