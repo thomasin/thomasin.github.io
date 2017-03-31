@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Javascript Basics</title>
+  <title>Javascript Language</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Abel|Raleway:400,300,600" rel="stylesheet">
 
@@ -16,26 +16,19 @@
 
   <div class="container">
     <nav class="section navigation">
-      <h4><a href="../index.html">thomasin-abraham</a> / Javascript Basics:</h4>
+      <h4><a href="../index.html">thomasin-abraham</a> / Javascript Language:</h4>
     </nav>
     <div class="section blogcontent">
-      <h6 class="label sprint4">sprint-4</h6>
+      <h6 class="label sprint6">sprint-6</h6>
       <h6 class="label tech">technical</h6><br>
-      <h5>How does Javascript compare to HTML/CSS?</h5>
+      <h5>Symbols</h5>
       <p>
-          HTML/CSS are the building blocks of a website design, they provide a solid base. Javascript brings a design the ability to be dynamic, interact and respond to what the user is doing. They go hand in hand with each other but bring different functions to a design.
-      </p>
-      <h5>Control flow and loops</h5>
-      <p>
-        Control flow and loops can be related to the simple process of eating. The control flow is all the decisions you make when deciding what to eat (if... I have this in the pantry, else... I can make that instead). A loop is simply an action that continues until you tell it stop (eating until your stomach decides you're full up). All these minute decisions and processes chain together to form a complex and tailored system. Control flow, like this, is the series of if... elses that make up a Javascript process.
-      </p>
-      <h5>Accessing data in arrays vs objects</h5>
-      <p>
-        Arrays and objects do seem very similar. A big difference between them is that data in an array can be referenced using it's index number (0, 1, 2...) and so is accessed numerically. Objects on the other hand are referenced using keys, usually a word. This places importance on the key, whereas in arrays the number associated with a value is usually far less important than the value itself.
-      </p>
-      <h5>What functions are, and why they're useful</h5>
-      <p>
-        Functions are a block of code that take a value, do something with it and return another value. They are useful because they are essentially outside of the flow, only used when called upon. Functions reduce repitition by being able to be used more than once in different situations, which can simplify code a lot. They are the building blocks of Javascript and massively useful.
+        <ul>
+          <li><strong>()</strong>: Brackets are used to send and receive values, whether variable names, numbers or class names <code>function hello(n), .add("n")</code>.<br>
+          They can be used around conditionals <code>if(n)</code> and when manipulating numbers <code>1 + (n*2)</code></li>
+          <li><strong>[]</strong>: Square brackets are used in conjunction with arrays, to define an array or select a value using an index number <code>array = [n], array[0] = n</code></li>
+          <li><strong>{}</strong>: Curly brackets are used to define the start and the end of function calls, loops, if statements and other blocks of code. They can be nested to define smaller blocks within those. <code> for(n) {n}, function hello(n) {} </code> They're also used to define objects <code>var obj = {i'm an object}</code></li>
+          <li><strong>''</strong>, <strong>""</strong>: Single and double quotes are used to define strings <code>var n = "string"</code>. They can be used also around selectors and identifiers that are not functions <code>("click", function())</code>. There is no differene between them, except if you use one kind you can use the other within the quote and it will not break the string, for example <code>"it's a good day"</code> will display correctly but <code>'it's a good day'</code> won't work.</li>
       </p>
     </div>
     <div class="section bloglist">

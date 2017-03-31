@@ -12,6 +12,10 @@ body {
   padding-bottom: 4%;
 }
 
+code {
+  font-size: 80%;
+}
+
 .navigation {
   margin-top: 8%;
 }
