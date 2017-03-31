@@ -69,9 +69,13 @@ a:hover {
 
 
 .label {
-  display: none;
+  display: inline-block;
   padding: 2px 4px;
   border-radius: 8px;
+}
+
+.bloglist .label {
+  display: none;
 }
 
 .sprint1 {
