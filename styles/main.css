@@ -49,6 +49,7 @@ h5 {
   display: inline-block;
   padding: 4px 4px 4px 0;
   margin-bottom: 0;
+  border-bottom: 1px #FFB7C5 solid;
 }
 
 a {
@@ -121,6 +122,7 @@ h4, h6 {
   }
   h5 {
     font-size:2.4rem;
+    border-bottom: none;
   }
 }
 
