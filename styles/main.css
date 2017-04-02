@@ -28,6 +28,10 @@ code {
   padding: 0 2% 0 2%;
 }
 
+.seven {
+  text-align: center;
+}
+
 .bite {
   border: 1px solid #FFf;
   border-radius: 8px;
@@ -123,6 +127,9 @@ h4, h6 {
   h5 {
     font-size:2.4rem;
     border-bottom: none;
+  }
+  .seven {
+    text-align: left;
   }
 }
 
