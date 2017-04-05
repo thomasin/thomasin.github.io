@@ -72,6 +72,8 @@ a:hover {
   font-size: 1.3em;
 }
 
+/* Label Styles */
+
 
 .label {
   display: inline-block;
@@ -82,6 +84,7 @@ a:hover {
 .bloglist .label {
   display: none;
 }
+
 
 .sprint1 {
   background-color: #FFD3DC;
