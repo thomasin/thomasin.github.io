@@ -39,6 +39,11 @@ code {
   font-size: 1.3em;
   text-align: center;
   margin:4px 0 4px 0;
+  display: none;
+}
+
+.mobileview {
+  display: block;
 }
 
 .news {
@@ -182,6 +187,7 @@ h4, h6 {
   }
   .bite {
     margin-bottom: 8px;
+    display: block;
   }
 }
 
