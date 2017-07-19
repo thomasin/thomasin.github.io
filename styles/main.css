@@ -1,203 +1,102 @@
-html {
-  min-height: 100%;
-}
-
 body {
-  font-family: 'Abel', sans-serif;
-  background-color: #FFB7C5;
-  background: -webkit-linear-gradient(#FFB7C5, #FC8EAC); /* For Safari 5.1 to 6.0 */
-  background:      -o-linear-gradient(#FFB7C5, #FC8EAC); /* For Opera 11.1 to 12.0 */
-  background:    -moz-linear-gradient(#FFB7C5, #FC8EAC); /* For Firefox 3.6 to 15 */
-  background:         linear-gradient(#FFB7C5, #FC8EAC); /* Standard syntax */
-  padding-bottom: 4%;
+  min-height: 100vh;
+  font-family: 'Lato';
 }
 
-code {
-  font-size: 80%;
+.container-fluid.landing {
+  margin-top: 40vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.container {
-  width: 100%;
+.hexagon {
+  stroke: #ffa3a3;
+  fill: #ff9999;
 }
 
-.navigation {
-  margin-top: 8%;
+.wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
-.section {
-  padding: 0 2% 0 2%;
+section {
+  padding: 32px;
+  border-top: 1px solid #ffb5b5;
+  font-size: 1.1em;
 }
 
-.seven {
+.text-center {
   text-align: center;
 }
 
-.bite {
-  border: 1px solid #FFf;
-  border-radius: 8px;
-  padding: 2%;
-  font-size: 1.3em;
-  text-align: center;
-  margin:4px 0 4px 0;
-  display: none;
+header {
+  z-index: 1;
 }
 
-.mobileview {
-  display: block;
+h1 {
+  color: #333;
+  font-family: 'Roboto';
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
-.news {
-  margin-top: 4px;
-}
-
-.xtras {
-  display: none;
-}
-
-h5 {
-  display: inline-block;
-  padding: 4px 4px 4px 0;
-  margin-bottom: 0;
-  border-bottom: 1px #FFB7C5 solid;
-}
-
-a {
-  text-decoration: none;
-  color: #007CE1;
-}
-
-a:hover {
-  color:#0062B1;
-}
-
-.blogcontent {
-  border-bottom: 1px solid #FFB7C5;
-  padding: 2% 0 2% 0;
-  margin-bottom: 2%;
-  font-size: 1.3em;
-}
-
-/* Label Styles */
-
-
-.label {
-  display: inline-block;
-  padding: 2px 4px;
-  border-radius: 8px;
-}
-
-.bloglist .label {
-  display: none;
-}
-
-
-.sprint1 {
-  background-color: #FFD3DC;
-}
-
-.sprint2 {
-  background-color: #FAF341;
-}
-
-.sprint3 {
-  background-color: #FF4C2F;
-}
-
-.sprint4 {
-  background-color: #3CD1A7;
-}
-
-.sprint5 {
-  background-color: #CF4BFF;
-}
-
-.sprint6 {
-  background-color: #6A9FF1;
-}
-
-.sprint7 {
-  background-color: #FF6899;
-}
-
-.sprint8 {
-  background-color: #FF8848;
-}
-
-.cultural {
-  background-color: #A0FF66;
-}
-
-.tech {
-  background-color: #FFAA59;
-}
-
-h4, h6 {
+header h1 {
+  text-transform: uppercase;
   margin: 0;
 }
 
-
-@media (min-width: 380px) {
-  .bloglist .label {
-    display: inline-block;
-  }
-  h5 {
-    font-size:2.4rem;
-    border-bottom: none;
-  }
-  .seven {
-    text-align: left;
-  }
+nav {
+  z-index: 1;
+  padding: 32px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 0.2s all ease-in;
 }
 
-@media (min-width: 1000px) {
-  .container {
-    width: 80%;
-  }
+nav a {
+  transition: 0.1s all ease-in;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
 }
-@media (min-width: 900px) {
-  .container {
-    width: 85%;
-  }
+nav a:active {
+  color: #333;
+  text-decoration: none;
 }
-
-@media (min-width: 830px) {
-  .container {
-    width:90%;
-  }
+nav a:focus {
+  color: #333;
+  text-decoration: none;
 }
-
-@media (min-width: 770px) {
-  .section {
-    padding: 0 8% 0 8%;
-  }
+nav a:hover {
+  color: #000;
+  text-decoration: none;
+  text-shadow: 1px 1px #f5f5f5;
 }
 
-@media (min-width: 700px) {
-  .container {
-    width: 95%;
-  }
-  .section {
-    padding: 0 4% 0 4%;
-  }
+nav .nav-items {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto';
+  padding: 0 16px;
+  text-shadow: 1px 1px #f5f5f5;
 }
 
-@media (min-width: 580px) {
-  .xtras {
-    display: inline-block;
-  }
-  .news {
-    width: 100%;
-    float: right !important;
-  }
-  .bite {
-    margin-bottom: 8px;
-    display: block;
-  }
+svg {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
 }
 
-  @media (min-width: 480px) {
-    .news {
-      width: 80%;
-      float: left;
-    }
-  }
+.svgBackground {
+  width: 100vw;
+  height: 100vh;
+}
