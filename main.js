@@ -10,8 +10,8 @@ function calculatePoints (svg) {
   const width = svg.node().clientWidth
   const height = svg.node().clientHeight
   // How many hexes
-  const columns = Math.ceil(height / (radius * Math.sqrt(3)) * 2.5) + radius
-  const rows = Math.ceil(width / (radius * 2)) + radius
+  const columns = Math.ceil(width / (radius * Math.sqrt(3))) + 1
+  const rows = Math.ceil(height / (radius * 1.5)) + 1
   const points = createPointsArr(rows, columns, radius)
   return { points, radius }
 }
@@ -29,12 +29,15 @@ function createPointsArr (rows, columns, radius) {
 function createHexGrid () {
   let svg = d3.select('.landing')
               .append('svg')
+
+  svg.attr('viewBox', `0 0 ${svg.node().clientWidth} ${svg.node().clientHeight}`)
+    .attr('preserveAspectRatio', 'xMinYMin slice')
+
   const stroke = ((Math.floor(Math.random() * 8) + 2)) // Random hex thickness
   const {points, radius} = calculatePoints(svg)
   const hexbin = d3.hexbin()
                   .radius(radius)
   drawHexgrid(svg, hexbin, points, stroke)
-  applyHexTransition()
 }
 
 function drawHexgrid (svg, hexbin, points, stroke) {
@@ -46,6 +49,7 @@ function drawHexgrid (svg, hexbin, points, stroke) {
     .attr("class", "hexagon")
     .attr("d", (d) => "M" + d.x + "," + d.y + hexbin.hexagon())
     .attr("stroke-width", `${stroke}px`)
+  applyHexTransition()
 }
 
 function applyHexTransition () {

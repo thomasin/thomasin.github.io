@@ -1,6 +1,7 @@
 body {
   min-height: 100vh;
   font-family: 'Lato';
+  background-color: #ffa3a3;
 }
 
 .container-fluid.landing {
@@ -54,6 +55,7 @@ h1 {
   font-size: 1.7em;
   font-weight: 600;
   letter-spacing: 0.1em;
+  margin: 0;
 }
 
 h3 {
@@ -66,7 +68,6 @@ h3 {
 
 header h1 {
   text-transform: uppercase;
-  margin: 0;
 }
 
 nav {
