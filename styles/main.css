@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  pointer-events: none;
 }
 
 .hexagon {
@@ -70,6 +71,10 @@ header h1 {
   text-transform: uppercase;
 }
 
+.container {
+  pointer-events: none;
+}
+
 nav {
   z-index: 1;
   padding: 32px 0px;
@@ -89,6 +94,7 @@ a {
   color: #333;
   cursor: pointer;
   text-decoration: none;
+  pointer-events: auto;
 }
 a:active {
   color: #333;
@@ -113,6 +119,7 @@ nav .nav-items {
 }
 
 svg {
+  pointer-events: auto;
   position: fixed;
   top:0;
   left:0;
