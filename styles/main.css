@@ -1,7 +1,7 @@
 body {
   min-height: 100vh;
   font-family: 'Lato';
-  background-color: #ffa3a3;
+  background-color: blue;
 }
 
 .container-fluid.landing {
@@ -17,6 +17,10 @@ body {
 .hexagon {
   stroke: #ffa3a3;
   fill: #ff9999;
+}
+
+.projectRow {
+  padding: 16px;
 }
 
 .wrapper {
