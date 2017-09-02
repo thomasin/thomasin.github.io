@@ -4,6 +4,10 @@ body {
   background-color: #ffa3a3;
 }
 
+img {
+  width: 100%;
+}
+
 .container-fluid.landing {
   margin-top: 40vh;
   padding: 0;
@@ -69,6 +73,11 @@ h3 {
   font-size: 1.2em;
   font-weight: 600;
   letter-spacing: 0.1em;
+  margin: 0;
+}
+
+h3 + p {
+  margin-bottom: 2rem;
 }
 
 header h1 {
