@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+/*var(--light-bg): #ffdead;*/
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background:
+            radial-gradient(ellipse at top, #000950, transparent),       
+            radial-gradient(ellipse at bottom, #ffdead, #2C176E);
+}
+
+main {
+    /*background: radial-gradient(ellipse at top, green, transparent);*/
+    mix-blend-mode: overlay;
+    padding: 40px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
